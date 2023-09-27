@@ -6,6 +6,7 @@
   } else {
     var mod = {
       exports: {}
+      
     };
     factory();
     global.FileSaver = mod.exports;
